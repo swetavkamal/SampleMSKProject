@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>SampleMSKProject</groupId>
+  <artifactId>SampleMSKProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+    
+  
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk</artifactId>
+    <version>1.11.534</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/sdk-core -->
+<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-core -->
+<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-core -->
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-core</artifactId>
+    <version>1.11.534</version>
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.6</version>
+</dependency>
+
+  
+ 
+
+  
+<!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams -->
+<!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
+<dependency>
+    <groupId>org.apache.kafka</groupId>
+    <artifactId>kafka_2.12</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-core -->
+
+
+<!--  Log 4J implementation..  -->
+  <dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.17</version>
+	</dependency>
+  
+  
+  </dependencies>
+  
+  
+</project>
